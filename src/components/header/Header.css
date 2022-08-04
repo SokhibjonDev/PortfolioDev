@@ -1,0 +1,134 @@
+.Header {
+    margin-top: 300px;
+    display: flex;
+}
+
+.Header h1 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    color: var(--heading-color);
+    font-size: 52px;
+    line-height: 72px;
+}
+
+.Header span {
+    width: 215px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+
+.Header span p {
+    color: var(--main-color-2);
+    font-size: 30px;
+}
+
+.Header p {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.Header .contact {
+    padding: 20px 35px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background: var(--main-color-1);
+    border: 2px solid var(--main-color-1);
+    color: var(--text-color);
+    color: #fff;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.Header .ixix{
+    margin-top: 100px;
+}
+.Header .resume {
+    padding: 20px 35px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    color: var(--main-color-1);
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: 2px solid var(--main-color-1);
+    cursor: pointer;
+}
+
+
+
+.Header .round {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid var(--main-color-2);
+    background: transparent;
+}
+
+.Header .roundes {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header .bigBorder {
+    width: 150px;
+    height: 150px;
+    border: 10px solid rgba(103, 0, 220, 0.2);
+    border-radius: 50%;
+    z-index: -999;
+    position: absolute;
+    margin-top: -85px;
+    margin-left: -95px;
+}
+
+.Header .radius {
+    margin-top: 350px;
+    right: 713px;
+    position: absolute;
+}
+
+.HeaderImg {
+    height: 600px;
+    overflow: hidden;
+}
+
+.headerImg {
+    width: 450px;
+    height: 650px;
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    background: linear-gradient(to bottom, var(--main-color-dark-1), transparent);
+    margin-left: 250px;
+    margin-top: -100px;
+    overflow: hidden;
+}
+
+.avatar {
+    width: 370px;
+    margin-left: 45px;
+    margin-top: 50px;
+    filter: saturate(2);
+
+}
+.sot-set{
+    margin-top: 100px;
+}
+.sot-set a{
+    padding: 10px 13px;
+    color: var(--text-color);
+    background: rgb(121, 4, 216);
+    border-radius: 50%;
+    color: #fff;
+}
+.sot-set ul li{
+    margin-top: 40px;
+    margin-left: 40px;
+}

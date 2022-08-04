@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+:root {
+  --hue-1: 257;
+  --hue-2: 47;
+  --bg-color: hsl(var(--hue-1), 100%, 97%);
+  --main-color-1: hsl(var(--hue-1), 100%, 60%);
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
+  --main-color-2: hsl(var(--hue-2), 100%, 61%);
+  --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
+  --bg-color-1: hsl(var(--hue-1), 100%, 97%);
+  --bg-color-2: #fff;
+  --bg-color-3: hsl(var(--hue-1), 100%, 98%);
+  --bg-color-transparent: rgba(255, 255, 255, 0.6);
+  --heading-color: rgb(53, 4, 99);
+  ;
+  --text-color: hsl(var(--hue-1), 17%, 63%);
+}
+
+body {
+  background: var(--bg-color);
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+::selection {
+  background: hsla(var(--hue-1), 100%, 60%, 0.9);
+  color: #fff;
+}
+
+.container {
+  width: 1400px;
+  margin: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-truck {
+  background: var(--heading-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-color);
+}

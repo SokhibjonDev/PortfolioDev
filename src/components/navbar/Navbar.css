@@ -1,0 +1,56 @@
+.Navbar{
+    display: flex;
+    padding: 25px 0;
+    background: rgba(255, 255, 255, .200);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 5px #c1c1c1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.Navbar ul{
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar ul li a{
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: .3s;
+}
+.Navbar ul li a:hover{
+    color: var(--main-color-1);
+}
+.Logo{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 1.5rem;
+    color: var(--header-color);
+    letter-spacing: 1px;
+}
+
+.Logo span{
+    color: var(--main-color-1);
+}
+
+.toggle-btn{
+    color: var(--heading-color);
+    background: var(--bg-color-2);
+    min-width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .2s;
+    font-size: 1.1rem;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.toggle-btn:hover{
+    color: var( --bg-color-2);
+    background: var(--heading-color);
+}
