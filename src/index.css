@@ -9,6 +9,10 @@
   list-style: none;
 }
 
+:focus {
+  outline: none;
+}
+
 :root {
   --hue-1: 257;
   --hue-2: 47;
@@ -52,4 +56,15 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: var(--text-color);
+}
+
+.title{
+  color: var(--heading-color);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 100px;
+  font-size: 28px;
+  font-family: serif;
 }

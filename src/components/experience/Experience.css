@@ -1,0 +1,32 @@
+.Experience{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 70px;
+    padding-bottom: 150px;
+}
+
+.exp{
+    width: 400px;
+    border: 1px solid var(--heading-color);
+    border-radius: 10px;
+}
+.exp h4{
+    text-align: center;
+    font-size: 20px ;
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: var(--heading-color);
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.brigada{
+    width: 350px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.brigada li{
+    line-height: 40px;
+}

@@ -1,0 +1,88 @@
+.About {
+    display: flex;
+}
+
+.About h1 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 3px;
+    color: var(--heading-color);
+    font-size: 52px;
+    line-height: 72px;
+}
+
+.About span {
+    width: 215px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    color: var(--main-color-2);
+}
+
+.About span p {
+    color: var(--main-color-1);
+    font-size: 30px;
+}
+
+.About p {
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.About .contact {
+    padding: 20px 35px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background: var(--main-color-1);
+    border: 2px solid var(--main-color-1);
+    color: var(--text-color);
+    color: #fff;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.About .resume {
+    padding: 20px 35px;
+    margin-right: 30px;
+    margin-top: 20px;
+    background: transparent;
+    border: none;
+    color: var(--main-color-1);
+    letter-spacing: 1px;
+    font-weight: 600;
+    border-radius: 15px;
+    text-transform: uppercase;
+    border: 2px solid var(--main-color-1);
+    cursor: pointer;
+}
+
+.aboutInfo {
+    width: 600px;
+    margin-left: 100px;
+}
+
+.aboutInfo p {
+    margin: 20px 0;
+}
+
+.aboutImg {
+    width: 700px;
+}
+.uzbek{
+    margin-top: 100px;
+}
+.uzbek,
+.russian,
+.english {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+h3{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
