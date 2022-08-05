@@ -18,6 +18,7 @@
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
+    color: var(--text-color);
 }
 
 .Header span p {
@@ -28,6 +29,7 @@
 .Header p {
     font-size: 22px;
     letter-spacing: 1px;
+    color: var(--text-color);
 }
 
 .Header .contact {

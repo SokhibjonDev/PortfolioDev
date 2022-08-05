@@ -12,13 +12,13 @@ function Experience() {
             <h4>Front End</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>HTML & Handlebars</li>
-                <li>CSS & Sass</li>
-                <li>Javascript</li>
+                <li>HTML & Handlebars <i class="uil uil-check-circle"></i></li>
+                <li>CSS & Sass <i class="uil uil-check-circle"></i></li>
+                <li>Javascript <i class="uil uil-check-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>jQuerry</li>
-                <li>GitHub</li>
+                <li>jQuerry <i class="uil uil-check-circle"></i></li>
+                <li>GitHub <i class="uil uil-check-circle"></i></li>
               </div>
             </div>
           </ul>
@@ -28,13 +28,13 @@ function Experience() {
             <h4>Back End</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>Node JS</li>
-                <li>Express JS</li>
-                <li>Mondo DB</li>
+                <li>Node JS <i class="uil uil-check-circle"></i></li>
+                <li>Express JS <i class="uil uil-check-circle"></i></li>
+                <li>Mondo DB <i class="uil uil-check-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>Python</li>
-                <li>PHP</li>
+                <li>Python<i class="uil uil-times-circle"></i></li>
+                <li>PHP<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>
@@ -44,13 +44,13 @@ function Experience() {
             <h4>Frameworks</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>React JS</li>
-                <li>Vue JS</li>
-                <li>Andular JS</li>
+                <li>React JS <i class="uil uil-check-circle"></i></li>
+                <li>Vue JS<i class="uil uil-times-circle"></i></li>
+                <li>Andular JS<i class="uil uil-times-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>Bootstrap</li>
-                <li>GitLub</li>
+                <li>Bootstrap <i class="uil uil-check-circle"></i></li>
+                <li>GitLub<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>
@@ -60,13 +60,13 @@ function Experience() {
             <h4>UI & UX designer</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>Figma</li>
-                <li>Adobe Photoshop</li>
-                <li>Adobe Illustrator</li>
+                <li>Figma <i class="uil uil-check-circle"></i></li>
+                <li>Adobe Photoshop <i class="uil uil-check-circle"></i></li>
+                <li>Adobe Illustrator<i class="uil uil-times-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>Gulp</li>
-                <li>Webpack</li>
+                <li>Gulp<i class="uil uil-times-circle"></i></li>
+                <li>Webpack<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>
@@ -76,13 +76,13 @@ function Experience() {
             <h4>Game dev</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>C</li>
-                <li>C#</li>
-                <li>C++</li>
+                <li>C<i class="uil uil-times-circle"></i></li>
+                <li>C#<i class="uil uil-times-circle"></i></li>
+                <li>C++<i class="uil uil-times-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>Java</li>
-                <li>Redux</li>
+                <li>Java<i class="uil uil-times-circle"></i></li>
+                <li>Redux<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>
@@ -92,13 +92,13 @@ function Experience() {
             <h4>Data base</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>Mongo DB</li>
-                <li>MySQL</li>
-                <li>Graph</li>
+                <li>Mongo DB <i class="uil uil-check-circle"></i></li>
+                <li>MySQL<i class="uil uil-times-circle"></i></li>
+                <li>Graph<i class="uil uil-times-circle"></i></li>
               </div>
               <div className="snd-addel">
-                <li>IBM</li>
-                <li>Amazon Aurora</li>
+                <li>IBM<i class="uil uil-times-circle"></i></li>
+                <li>Amazon Aurora<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>

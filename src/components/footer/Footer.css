@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     padding: 25px 0;
-    background: rgba(255, 255, 255, .200);
+    background: var(--bg-color-transparent);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 5px #c1c1c1;
+    box-shadow: 0 0 15px var(--nav-shadow);
     width: 100%;
 }
 
@@ -43,8 +43,8 @@
     margin-top: 10px;
 }
 .Footer p{
-    background: var(--bg-color-3);
-    padding: 40px;
+    background: var(--bg-color);
+    padding: 40px;  
     margin-bottom: -25px;
     text-align: center;
     color: var(--heading-color);

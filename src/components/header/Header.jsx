@@ -1,5 +1,4 @@
 import "./Header.css";
-
 function Header() {
   return (
     <div className="Header" id="Header">
@@ -20,7 +19,7 @@ function Header() {
         </div>
       </div>
       <div className="headerImg">
-          <img className="avatar" src="/images/avatar.png" alt="" />
+        <img className="avatar" src="/images/avatar.png" alt="" />
       </div>
       <div className="sot-set">
         <ul>

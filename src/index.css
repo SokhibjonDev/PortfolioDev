@@ -16,7 +16,6 @@
 :root {
   --hue-1: 257;
   --hue-2: 47;
-  --bg-color: hsl(var(--hue-1), 100%, 97%);
   --main-color-1: hsl(var(--hue-1), 100%, 60%);
   --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
   --main-color-2: hsl(var(--hue-2), 100%, 61%);
@@ -24,10 +23,19 @@
   --bg-color-1: hsl(var(--hue-1), 100%, 97%);
   --bg-color-2: #fff;
   --bg-color-3: hsl(var(--hue-1), 100%, 96%);
+  --nav-shadow: #ccc;
+  --bg-color: hsl(var(--hue-1), 100%, 97%);
+  --bg-toggle-color: hsl(var(--hue-1), 100%, 96%);
   --bg-color-transparent: rgba(255, 255, 255, 0.6);
   --heading-color: rgb(53, 4, 99);
-  ;
-  --text-color: hsl(var(--hue-1), 17%, 63%);
+  --text-color: hsl(var(--hue-1), 17%, 63%); 
+  /* =========== */
+  /* --bg-color: hsl(var(--hue-1), 19%, 15%);
+  --bg-toggle-color: hsl(var(--hue-1), 19%, 25%);
+  --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
+  --heading-color: hsl(var(--hue-1), 100%, 95%);
+  --text-color: hsl(var(--hue-1), 14%, 71%);
+  --nav-shadow: #191324d6; */
 }
 
 body {
@@ -58,7 +66,7 @@ body {
   background: var(--main-color-1);
 }
 
-.title{
+.title {
   color: var(--heading-color);
   text-transform: uppercase;
   letter-spacing: 2px;

@@ -66,24 +66,28 @@
 
 .aboutInfo p {
     margin: 20px 0;
+    color: var(--text-color);
 }
 
 .aboutImg {
     width: 700px;
 }
-.uzbek{
+
+.uzbek {
     margin-top: 100px;
 }
+
 .uzbek,
 .russian,
 .english {
     width: 400px;
     display: flex;
     justify-content: space-between;
+    color: var(--text-color);
     margin-bottom: 15px;
 }
 
-h3{
+h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }

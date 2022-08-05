@@ -28,4 +28,5 @@
 }
 .brigada li{
     line-height: 40px;
+    color: var(--text-color);
 }

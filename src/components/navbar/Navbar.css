@@ -1,9 +1,9 @@
 .Navbar{
     display: flex;
     padding: 25px 0;
-    background: rgba(255, 255, 255, .200);
+    background: var(--bg-color-transparent);
     backdrop-filter: blur(10px);
-    box-shadow: 0 0 5px #c1c1c1;
+    box-shadow: 0 0 5px var(--nav-shadow);
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,7 +29,7 @@
 .Logo{
     font-family: 'Abril Fatface', cursive;
     font-size: 1.5rem;
-    color: var(--header-color);
+    color: var(--heading-color);
     letter-spacing: 1px;
 }
 
@@ -39,7 +39,7 @@
 
 .toggle-btn{
     color: var(--heading-color);
-    background: var(--bg-color-2);
+    background: var(--bg-toggle-color);
     min-width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -52,6 +52,6 @@
     cursor: pointer;
 }
 .toggle-btn:hover{
-    color: var( --bg-color-2);
+    color: var( --bg-color);
     background: var(--heading-color);
 }
