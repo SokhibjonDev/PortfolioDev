@@ -23,7 +23,7 @@
   --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
   --bg-color-1: hsl(var(--hue-1), 100%, 97%);
   --bg-color-2: #fff;
-  --bg-color-3: hsl(var(--hue-1), 100%, 98%);
+  --bg-color-3: hsl(var(--hue-1), 100%, 96%);
   --bg-color-transparent: rgba(255, 255, 255, 0.6);
   --heading-color: rgb(53, 4, 99);
   ;
@@ -55,7 +55,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--text-color);
+  background: var(--main-color-1);
 }
 
 .title{

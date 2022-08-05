@@ -4,7 +4,7 @@ function Experience() {
   return (
     <>
       <div className="title">
-        <h1>Experience</h1>
+        <h1 style={{paddingTop:'30px'}}>Experience</h1>
       </div>
       <div className="Experience">
         <div className="exp">

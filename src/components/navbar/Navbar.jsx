@@ -5,7 +5,7 @@ function Navbar() {
     <div className="Navbar">
       <ul>
         <a href="/" className='Logo'>Sokhibjon<span>Dev</span></a>
-        <li><a href="#About">About me</a></li>
+        <li><a href="#!">About me</a></li>
         <li><a href="#!">Experience</a></li>
         <li><a href="#!">Services</a></li>
         <li><a href="#!">Portfolios</a></li>

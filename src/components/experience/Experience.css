@@ -3,9 +3,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 70px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
 }
-
 .exp{
     width: 400px;
     border: 1px solid var(--heading-color);

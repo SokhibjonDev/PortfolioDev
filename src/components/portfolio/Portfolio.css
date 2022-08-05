@@ -1,0 +1,42 @@
+.Portfolio {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.Portfolios{
+    margin-top: 100px;
+}
+.portfolioInfo {
+    width: 320px;
+    height: 170px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px var(--text-color);
+    position: relative;
+}
+
+.portfolioInfo p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    font-size: 25px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(111, 13, 210, 0.2);
+    border-radius: 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.portfolioInfo p:hover {
+    opacity: 1;
+}
+
+.portfolioInfo img {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #c1c1c1;
+    border-radius: 20px;
+}
