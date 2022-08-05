@@ -27,6 +27,9 @@
     padding-bottom: 30px;
 }
 .brigada li{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
     line-height: 40px;
     color: var(--text-color);
 }

@@ -122,10 +122,13 @@
 
 }
 .sot-set{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .sot-set a{
     padding: 10px 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: var(--text-color);
     background: rgb(121, 4, 216);
     border-radius: 50%;

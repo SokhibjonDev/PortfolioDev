@@ -12,7 +12,7 @@ function Experience() {
             <h4>Front End</h4>
             <div className="brigada">
               <div className="fst-addel">
-                <li>HTML & Handlebars <i class="uil uil-check-circle"></i></li>
+                <li>HTML <i class="uil uil-check-circle"></i></li>
                 <li>CSS & Sass <i class="uil uil-check-circle"></i></li>
                 <li>Javascript <i class="uil uil-check-circle"></i></li>
               </div>
@@ -61,8 +61,8 @@ function Experience() {
             <div className="brigada">
               <div className="fst-addel">
                 <li>Figma <i class="uil uil-check-circle"></i></li>
-                <li>Adobe Photoshop <i class="uil uil-check-circle"></i></li>
-                <li>Adobe Illustrator<i class="uil uil-times-circle"></i></li>
+                <li>Photoshop <i class="uil uil-check-circle"></i></li>
+                <li>Illustrator<i class="uil uil-times-circle"></i></li>
               </div>
               <div className="snd-addel">
                 <li>Gulp<i class="uil uil-times-circle"></i></li>
@@ -98,7 +98,7 @@ function Experience() {
               </div>
               <div className="snd-addel">
                 <li>IBM<i class="uil uil-times-circle"></i></li>
-                <li>Amazon Aurora<i class="uil uil-times-circle"></i></li>
+                <li>Amazon<i class="uil uil-times-circle"></i></li>
               </div>
             </div>
           </ul>

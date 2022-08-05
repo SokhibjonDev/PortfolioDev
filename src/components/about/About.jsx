@@ -10,31 +10,31 @@ function About() {
                     <div className="uzbek">
                         <h3>Uzbek</h3>
                         <div className="stars">
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
                         </div>
                     </div>
                     <div className="russian">
                         <h3>Russian</h3>
                         <div className="stars">
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.png" alt="" />
-                            <img width={30} src="/images/star.png" alt="" />
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
                         </div>
                     </div>
                     <div className="english">
                         <h3>English</h3>
                         <div className="stars">
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.active.png" alt="" />
-                            <img width={30} src="/images/star.png" alt="" />
-                            <img width={30} src="/images/star.png" alt="" />
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uis uis-star"></i>
+                            <i class="uil uil-star"></i>
+                            <i class="uil uil-star"></i>
                         </div>
                     </div>
 

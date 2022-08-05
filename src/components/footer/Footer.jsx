@@ -2,23 +2,26 @@ import './Footer.css';
 import '../navbar/Navbar.css'
 
 function Footer() {
+    const openInNewTab = url => {
+        window.open(url, '_blank', 'noopener,noreferrer')
+    }
     return (
         <>
             <div className="Footer">
                 <div className='d-flex'>
                     <ul>
-                        <h5>Social networks</h5>
-                        <li><a href="#!">Instagram</a></li>
-                        <li><a href="#!">Telegram</a></li>
-                        <li><a href="#!">YouTube</a></li>
-                        <li><a href="#!">GitHub</a></li>
+                        <h5>Partners</h5>
+                        <li><a href="#!" target="_blank" rel='noopener noreferrer'>Change IT</a></li>
+                        <li><a href="https://online.pdp.uz/" target="_blank" rel='noopener noreferrer'>PDP Academy</a></li>
+                        <li><a href="https://deepcode.uz/" target="_blank" rel='noopener noreferrer'>Deepcode</a></li>
+                        <li><a href="#!" target="_blank" rel='noopener noreferrer'>iKnow Academy</a></li>
                     </ul>
                     <ul>
-                        <h5>Social networks</h5>
-                        <li><a href="#!">Instagram</a></li>
-                        <li><a href="#!">Telegram</a></li>
-                        <li><a href="#!">YouTube</a></li>
-                        <li><a href="#!">GitHub</a></li>
+                        <h5>Freelance</h5>
+                        <li><a href="#!">Upwork</a></li>
+                        <li><a href="#!">Freelancer</a></li>
+                        <li><a href="#!">Webfreelancer</a></li>
+                        <li><a href="#!">TopTal</a></li>
                     </ul>
                     <ul>
                         <h5>Social networks</h5>

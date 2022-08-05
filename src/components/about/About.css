@@ -91,3 +91,12 @@ h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+.uis{
+    color: var(--main-color-2);
+}
+
+.uis,
+.uil{
+    font-size: 24px;
+}
