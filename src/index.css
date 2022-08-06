@@ -30,12 +30,12 @@
   --heading-color: rgb(53, 4, 99);
   --text-color: hsl(var(--hue-1), 17%, 63%);  */
   /* =========== */
+  --nav-shadow: #191324d6;
   --bg-color: hsl(var(--hue-1), 19%, 15%);
   --bg-toggle-color: hsl(var(--hue-1), 19%, 25%);
   --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
   --heading-color: hsl(var(--hue-1), 100%, 95%);
-  --text-color: hsl(var(--hue-1), 14%, 71%);
-  --nav-shadow: #191324d6;
+  --text-color: hsl(var(--hue-1), 11%, 61%);
 }
 
 body {

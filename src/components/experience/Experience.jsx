@@ -30,7 +30,7 @@ function Experience() {
               <div className="fst-addel">
                 <li>Node JS <i class="uil uil-check-circle"></i></li>
                 <li>Express JS <i class="uil uil-check-circle"></i></li>
-                <li>Mondo DB <i class="uil uil-check-circle"></i></li>
+                <li>Handlebars<i class="uil uil-check-circle"></i></li>
               </div>
               <div className="snd-addel">
                 <li>Python<i class="uil uil-times-circle"></i></li>
