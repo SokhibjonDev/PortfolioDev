@@ -2,9 +2,6 @@ import './Footer.css';
 import '../navbar/Navbar.css'
 
 function Footer() {
-    const openInNewTab = url => {
-        window.open(url, '_blank', 'noopener,noreferrer')
-    }
     return (
         <>
             <div className="Footer">

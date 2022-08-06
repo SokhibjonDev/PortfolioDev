@@ -15,10 +15,11 @@
     font-size: 20px;
     width: 600px;
 }
-.Contact button {
+.Contact a {
+    position: absolute;
     padding: 17px 35px;
     margin-right: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     background: var(--main-color-1);
     border: 2px solid var(--main-color-1);
     color: var(--text-color);
@@ -29,7 +30,7 @@
     cursor: pointer;
     transition: .3s;
 }
-.Contact button:hover{
+.Contact a:hover{
     box-shadow: 0 0 7px var(--main-color-1);
     transform: scale(1.020);
 }

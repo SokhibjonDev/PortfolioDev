@@ -17,7 +17,7 @@
   --hue-1: 257;
   --hue-2: 47;
   --main-color-1: hsl(var(--hue-1), 100%, 60%);
-  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%); 
   --main-color-2: hsl(var(--hue-2), 100%, 61%);
   --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
   --bg-color-1: hsl(var(--hue-1), 100%, 97%);

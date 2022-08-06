@@ -1,15 +1,15 @@
 import './Navbar.css';
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
         <ul >
-          <a href="/" className='Logo'>Sokhibjon<span>Dev</span></a>
-          <li><a href="#!">About me</a></li>
-          <li><a href="#!">Experience</a></li>
-          <li><a href="#!">Services</a></li>
-          <li><a href="#!">Portfolios</a></li>
-          <li><a href="#!">Contact me</a></li>
+          <Link to="/" className='Logo'>Sokhibjon<span>Dev</span></Link>
+          <li><Link to="/about">About me</Link></li>
+          <li><Link to="/experience">Experience</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/portfolios">Portfolios</Link></li>
+          <li><Link to="/contact">Contact me</Link></li>
           <i class="uil uil-moon toggle-btn"></i>
           {/* <i class="uil uil-sun toggle-btn"></i> */}
         </ul>
