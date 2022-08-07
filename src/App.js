@@ -21,7 +21,6 @@ const App = () => {
         <Route path="/experience" element={<ExperiencePage />} />
         <Route path="/portfolios" element={<PortfolioPage />} />
       </Routes>
-      
       <Footer />
     </div>
   );

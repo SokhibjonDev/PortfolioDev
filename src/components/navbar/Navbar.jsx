@@ -10,7 +10,7 @@ function Navbar() {
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/portfolios">Portfolios</Link></li>
           <li><Link to="/contact">Contact me</Link></li>
-          <i class="uil uil-moon toggle-btn"></i>
+          <i class="uil uil-sun toggle-btn"></i>
           {/* <i class="uil uil-sun toggle-btn"></i> */}
         </ul>
       </div>

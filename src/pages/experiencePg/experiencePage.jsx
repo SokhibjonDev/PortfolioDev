@@ -8,7 +8,7 @@ const experiencePage = () => {
       </div>
 
       <div className="ExpeienceCards">
-        <div className="card">
+        <div className="card backStyle">
           <div className="percent">
             <div className="dot"></div>
             <svg>
@@ -34,7 +34,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>CSS & Sass</p>
             </div>
           </div>
         </div>
@@ -49,7 +49,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Java Script</p>
             </div>
           </div>
         </div>
@@ -64,7 +64,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>jQuerry</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Bootstrap</p>
             </div>
             
           </div>
@@ -99,7 +99,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Mongo DB</p>
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Express JS</p>
             </div>
           </div>
         </div>
@@ -129,7 +129,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>React JS</p>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>NODE JS</p>
             </div>
           </div>
         </div>
@@ -159,7 +159,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Socket.io</p>
             </div>
             
           </div>
@@ -179,7 +179,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Photoshop</p>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Illustrator</p>
             </div>
           </div>
         </div>
@@ -209,7 +209,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>After Effects</p>
             </div>
           </div>
         </div>
@@ -224,7 +224,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Premier Pro</p>
             </div>
           </div>
         </div>
@@ -239,7 +239,7 @@ const experiencePage = () => {
               <h2>
                 85 <span>%</span>
               </h2>
-              <p>HTML</p>
+              <p>Figma</p>
             </div>
             
           </div>

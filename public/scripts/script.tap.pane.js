@@ -1,32 +1,14 @@
-// const moon = document.querySelector(".uil-moon");
-// const sun = document.querySelector(".uil-sun");
+const body = document.querySelector('body');
 const toggle = document.querySelector('.toggle-btn');
 
 toggle.addEventListener('click', () => {
-    alert('msg')
+    if (body.className === '.dark') {
+        body.classList.remove('.dark')
+        body.classList.add('.white')
+    } else if (body.className === '.white') {
+        body.classList.remove('.white')
+        body.classList.add('.dark')
+    }else{
+        body.className = '.dark';
+    }
 })
-
-// if (moon.style.display === 'block')
-//     moon.addEventListener('click', () => {
-//         sun.style.display = 'block'
-//         moon.style.display = 'none'
-//     })
-// else if (sun.style.display === 'block') {
-//     sun.addEventListener('click', () => {
-//         moon.style.display = 'block'
-//         sun.style.display = 'none'
-//     })
-// }
-
-
-// const classes = i.classList;
-
-// i.addEventListener('click', function() {
-//   const result = classes.toggle("uil-sun");
-
-//   if (result) {
-//     i.textContent = `${classes}"`;
-//   } else {
-//     i.textContent = `${classes}"`;
-//   }
-// })
