@@ -3,6 +3,7 @@ form {
   display: flex;
   flex-direction: column;
   margin-top: -50px;
+  margin-bottom: 200px;
   gap: 15px;
 }
 form .name {
@@ -84,4 +85,20 @@ form textarea:focus {
 form textarea:valid,
 form textarea:focus::placeholder {
   color: var(--main-color-1);
+}
+
+.handshacking {
+  width: 600px;
+  position: absolute;
+  right: 280px;
+  border-radius: 20px;
+}
+
+.handchack {
+  width: 600px;
+  height: 400px;
+  background: rgba(46, 23, 99, 0.4);
+  position: absolute;
+  border-radius: 20px;
+  right: 280px; 
 }

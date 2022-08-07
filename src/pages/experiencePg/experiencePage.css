@@ -1,0 +1,112 @@
+.ExpeienceCards {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+.card {
+  width: 250px;
+  height: 270px;
+  background: var(--card-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.card .percent {
+  width: 150px;
+  height: 150px;
+  position: relative;
+}
+
+.card .percent svg {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  transform: rotate(270deg);
+}
+.card .percent svg circle {
+  width: 100%;
+  height: 100%;
+  fill: transparent;
+  stroke-width: 2;
+  stroke: rgba(0, 0, 0, 0.23);
+  transform: translate(5px, 5px);
+  position: relative;
+}
+
+.card .percent svg circle:nth-child(2) {
+  stroke: var(--main-color-dark-1);
+  stroke-dasharray: 370;
+  stroke-dashoffset: calc(440- (440 * 85) / 100);
+  opacity: 0;
+  animation: fadeIn 0.2s linear forwards;
+  animation-delay: 2.5s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.dot {
+  position: absolute;
+  inset: 5px;
+  z-index: 10;
+  transform: rotate(calc(3.6deg * 85));
+  animation: animateDot 2s linear forwards;
+}
+@keyframes animateDot {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(calc(3.6deg * 85));
+  }
+}
+.dot::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px var(--main-color-1), 0 0 30px var(--main-color-1);
+  background: var(--main-color-dark-1);
+}
+
+.number {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  opacity: 0;
+  animation: fadeIn 0.2s linear forwards;
+  animation-delay: 2.5s;
+}
+.number h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 700;
+}
+.number h2 span {
+  font-weight: 300;
+  font-size: 0.5em;
+}
+
+.number p {
+  font-weight: 300;
+  font-size: 0.75em;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.75);
+}

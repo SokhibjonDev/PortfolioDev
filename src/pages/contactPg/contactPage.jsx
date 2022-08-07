@@ -2,7 +2,7 @@ import React from "react";
 import "./contactPage.css";
 const contactPage = () => {
   return (
-    <div className="container" style={{marginTop: -100}}>
+    <div className="container" style={{ marginTop: -100 }}>
       <div className="title">
         <h1>Contact</h1>
       </div>
@@ -23,6 +23,8 @@ const contactPage = () => {
           required
         ></textarea>
         <button className="send">Send</button>
+        <img className="handshacking" src="/images/handshacking.jpg" alt="" />
+        <div className="handchack"></div>
       </form>
     </div>
   );
