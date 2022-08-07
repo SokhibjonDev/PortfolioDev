@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   padding: 0;
@@ -17,7 +16,7 @@
   --hue-1: 257;
   --hue-2: 47;
   --main-color-1: hsl(var(--hue-1), 100%, 60%);
-  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%); 
+  --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
   --main-color-2: hsl(var(--hue-2), 100%, 61%);
   --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
   --bg-color-1: hsl(var(--hue-1), 100%, 97%);
@@ -28,7 +27,9 @@
   --bg-toggle-color: hsl(var(--hue-1), 100%, 96%);
   --bg-color-transparent: rgba(255, 255, 255, 0.6);
   --heading-color: rgb(53, 4, 99);
-  --text-color: hsl(var(--hue-1), 17%, 63%);  */
+  --text-color: hsl(var(--hue-1), 17%, 63%); 
+  --card-color: rgba(255, 255, 255, 0.7)  ; */
+
   /* =========== */
   --nav-shadow: #191324d6;
   --bg-color: hsl(var(--hue-1), 19%, 15%);
@@ -36,12 +37,13 @@
   --bg-color-transparent: hsla(var(--hue-1), 23%, 19%, 0.6);
   --heading-color: hsl(var(--hue-1), 100%, 95%);
   --text-color: hsl(var(--hue-1), 11%, 61%);
+  --card-color: rgba(0, 0, 0, 0.2);
 }
 
 body {
   background: var(--bg-color);
   overflow-x: hidden;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ::selection {
