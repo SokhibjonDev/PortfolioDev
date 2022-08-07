@@ -110,3 +110,15 @@
   letter-spacing: 2px;
   color: rgba(255, 255, 255, 0.75);
 }
+.titlecha
+{
+  color: var(--heading-color);
+  text-transform: uppercase;
+  letter-spacing: 2px ;
+}
+.params{
+  color: var(--text-color);
+  letter-spacing: 1px ;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
