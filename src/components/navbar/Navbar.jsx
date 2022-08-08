@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <div className="Navbar">
-        <ul >
+        <ul  data-aos="fade-down">
           <Link to="/" className='Logo'>Sokhibjon<span>Dev</span></Link>
           <li><Link to="/about">About me</Link></li>
           <li><Link to="/experience">Experience</Link></li>

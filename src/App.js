@@ -8,6 +8,9 @@ import AboutPage from "./pages/aboutPg/aboutPage";
 import ServicePage from "./pages/servicePg/servicePage";
 import ExperiencePage from "./pages/experiencePg/experiencePage";
 import PortfolioPage from "./pages/portfolioPg/portfolioPage";
+import AOS from "aos";
+import 'aos/dist/aos.css'
+AOS.init()
 
 const App = () => {
   return (

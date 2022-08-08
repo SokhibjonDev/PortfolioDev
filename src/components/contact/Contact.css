@@ -6,8 +6,9 @@
     margin-bottom: 200px;
 }
 .Contact h1{
+    font-family: 'Abril Fatface', cursive;
     color: var(--heading-color);
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 42px;
 }
 .Contact p{
