@@ -8,10 +8,7 @@ function Service() {
                 <div className="serviceInfo">
                     <p><span>|</span> Front End & Back End</p>
                     <h1>Hello world</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam facere officiis a voluptatum quidem? Odio culpa laborum, maxime expedita voluptates iusto necessitatibus? Temporibus in blanditiis delectus optio numquam. Perspiciatis quos, omnis natus ab atque optio dicta nesciunt voluptate adipisci.</p>
-                    <div className="btn-s">
-                        <button className='contact'>Button</button>
-                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam ullam facere officiis a voluptatum quidem? Odio culpa laborum, maxime expedita voluptates iusto necessitatibus? Temporibus in blanditiis delectus optio numquam. Perspiciatis quos, omnis natus ab atque optio dicta nesciunt voluptate adipisci. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur iusto facere a ad similique, non numquam quas fugit dicta </p>
                 </div>
                 <div className="serviceDio">
                     <h1>Projects <span>35+</span></h1>
