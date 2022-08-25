@@ -90,10 +90,11 @@ function About() {
           >
             My name's Sokhibdjon.I was born on March 6, 2007. I'm a Front End
             developer.I study at Change It Academy.I have 1 year of
-            experience.My English level is IELTS 7.5 .My GitHub account contains
+            experience.My English level is IELTS 5.0 .My GitHub account contains
             projects I've done{" "}
             <a href="https://github.com/SokhibjonDev">( GitHub )</a>.I entered
             as a junior developer in 2021. In 2022, I entered the middle level.
+            
           </p>
           <div
             data-aos="fade-up"

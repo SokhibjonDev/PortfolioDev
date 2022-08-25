@@ -1,6 +1,3 @@
-const body = document.querySelector('body');
-const toggle = document.querySelector('.toggle-btn');
-toggle.addEventListener('click', () => {
-    body.classList.toggle('white')
-    body.classList.toggle('dark')
-})
+const topBtn = document.querySelector(".toTop");
+
+topBtn.onclick = () => window.scrollTop({ top: 0, behavior: "smooth" });

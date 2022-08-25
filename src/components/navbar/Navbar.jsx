@@ -4,8 +4,7 @@ function Navbar() {
   return (
     <div className="Navbar">
         <ul  data-aos="fade-down">
-          <Link to="/" className='Logo'>Sokhibjon<span>Dev</span></Link>
-          <li><Link to="/about">About me</Link></li>
+          <Link to="/" className='Logo'>Sokhibdjon<span>Dev</span></Link>
           <li><Link to="/experience">Experience</Link></li>
           <li><Link to="/services">Services</Link></li>
           <li><Link to="/portfolios">Portfolios</Link></li>

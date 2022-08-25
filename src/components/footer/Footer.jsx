@@ -14,7 +14,7 @@ function Footer() {
           <ul>
             <h5>Partners</h5>
             <li>
-              <a href="#!" target="_blank" rel="noopener noreferrer">
+              <a href="https://changeit.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                 Change IT
               </a>
             </li>

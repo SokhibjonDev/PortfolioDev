@@ -59,22 +59,22 @@ function Header() {
       <div className="sot-set" data-aos="fade-up">
         <ul>
           <li>
-            <a href="#!">
+            <a target="_blank" rel="noopener noreferrer" href="https://t.me/front_endev_ok">
               <i class="uil uil-telegram"></i>
             </a>
           </li>
           <li>
-            <a href="#!">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sohibjon-soliyev-13550a247/"> 
               <i class="uil uil-linkedin"></i>
             </a>
           </li>
           <li>
-            <a href="#!">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100084564271860">
               <i class="uil uil-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="#!">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/SokhibjonDev">
               <i class="uil uil-github"></i>
             </a>
           </li>
