@@ -1,0 +1,13 @@
+@media(max-width:1400px) {
+    .Portfolio {
+        width: 1250px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    .portfolioInfo {
+        width: 280px;
+        height: 160px;
+    }
+}

@@ -1,4 +1,5 @@
 import "./Footer.css";
+import "./Footer.media.css";
 import "../navbar/Navbar.css";
 
 function Footer() {
@@ -7,9 +8,6 @@ function Footer() {
       <div className="Footer">
         <div
           className="d-flex"
-          data-aos="fade-up"
-          data-aos-easing="linear"
-          data-aos-duration="1300"
         >
           <ul>
             <h5>Partners</h5>

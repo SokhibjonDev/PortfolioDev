@@ -1,0 +1,14 @@
+@media (max-width:1400px) {
+    .aboutInfo h1{
+        font-size: 50px;
+        width: 500px;
+    }
+    .aboutInfo p{
+        font-size: 21px;
+        width: 500px;
+    }
+    .aboutImg{
+        margin-left: 100px;
+        width: 630px;    
+    }
+}   

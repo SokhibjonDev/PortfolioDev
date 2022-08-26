@@ -3,7 +3,11 @@ function Header() {
   return (
     <div className="Header" id="Header">
       <div>
-        <div data-aos="fade-up" className="headerInfo">
+        <div
+          data-aos="fade-up"
+          className="headerInfo"
+          style={{ marginLeft: 65 }}
+        >
           <span
             data-aos-easing="linear"
             data-aos-duration="500"
@@ -57,24 +61,47 @@ function Header() {
         />
       </div>
       <div className="sot-set" data-aos="fade-up">
-        <ul>
+        <ul
+          style={{
+            position: "absolute",
+            right: 100,
+            top: 800,
+            display: "flex",
+          }}
+        >
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://t.me/front_endev_ok">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://t.me/front_endev_ok"
+            >
               <i class="uil uil-telegram"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sohibjon-soliyev-13550a247/"> 
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/sohibjon-soliyev-13550a247/"
+            >
               <i class="uil uil-linkedin"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100084564271860">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.facebook.com/profile.php?id=100084564271860"
+            >
               <i class="uil uil-facebook"></i>
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/SokhibjonDev">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/SokhibjonDev"
+            >
               <i class="uil uil-github"></i>
             </a>
           </li>

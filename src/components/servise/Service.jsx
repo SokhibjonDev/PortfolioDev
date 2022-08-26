@@ -1,4 +1,5 @@
 import "./Service.css";
+import "./Service.media.css";
 
 function Service() {
   return (

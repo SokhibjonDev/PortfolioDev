@@ -1,0 +1,8 @@
+@media (max-width:1400px) {
+    .Experience {
+        justify-content: space-evenly;
+        gap: 30px 10px;
+        width: 1290px;
+        margin: auto;
+    }
+}

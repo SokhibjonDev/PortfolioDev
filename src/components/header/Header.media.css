@@ -1,0 +1,12 @@
+@media (max-width:1400px) {
+    .Header {
+        padding-bottom: 70px;
+    }
+    
+    .Header h1 {
+        font-size: 52px;
+    }
+    .headerInfo{
+        margin-left: 65px;
+    }
+}

@@ -1,4 +1,5 @@
 import "./Portfolio.css";
+import "./Portfolio.media.css";
 
 function Portfolio() {
   return (

@@ -42,20 +42,21 @@
   --card-color: rgba(0, 0, 0, 0.2);
 }
 
-.white{
+.white {
   background: var(--bg-color);
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
-    --nav-shadow: #ccc;
+  --nav-shadow: #ccc;
   --bg-color: hsl(var(--hue-1), 100%, 97%);
   --bg-toggle-color: hsl(var(--hue-1), 100%, 96%);
   --bg-color-transparent: rgba(255, 255, 255, 0.6);
   --heading-color: rgb(53, 4, 99);
-  --text-color: hsl(var(--hue-1), 17%, 63%); 
+  --text-color: hsl(var(--hue-1), 17%, 63%);
   --service-p: rgb(25, 0, 95);
-  --card-color: rgba(255, 255, 255, 0.7)  ;
+  --card-color: rgba(255, 255, 255, 0.7);
 }
-.dark{
+
+.dark {
   background: var(--bg-color);
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;

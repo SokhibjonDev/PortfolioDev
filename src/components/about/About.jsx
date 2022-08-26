@@ -1,4 +1,5 @@
 import "./About.css";
+import "./About.media.css";
 
 function About() {
   return (

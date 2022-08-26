@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Contact.css";
+import "./Contact.media.css";
 
 function Contact() {
   return (
